@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANJAC - Association</title>
+    <title>ANJAC - جمعية</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -18,11 +18,18 @@
                 <img src="images/logo.jpg" alt="ANJAC Logo" class="logo-img">
             </div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#activities">Our Activities</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Get in Touch</a></li>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#activities">أنشطتنا</a></li>
+                <li><a href="#faq">الأسئلة الشائعة</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+                <li class="language-select">
+                    <select onchange="location = this.value;">
+                        <option value="index.html" selected>🇸🇦 Arabic</option>
+                        <option value="index_en.html">🇬🇧 English</option>
+                        <option value="index_fr.html">🇫🇷 French</option>
+                    </select>
+                </li>
             </ul>
         </nav>
     </header>
@@ -31,14 +38,14 @@
         <section id="home" class="hero">
             <h1>Welcome to ANJAC</h1>
             <p>جمعية شباب الفن و الابداع</p>
-            <a href="#contact" class="cta-button">Join Us Today</a>
+            <a href="#contact" class="cta-button">انضم إلينا اليوم</a>
         </section>
 
         <section id="about" class="about">
-            <h2>About Us</h2>
+            <h2>من نحن</h2>
             <div class="about-content">
                 <img src="images/about-image.jpg" alt="ANJAC Team" class="about-image">
-                <p>ANJAC is dedicated to fostering community growth and development through various initiatives and programs. Our mission is to create a positive impact on society by bringing people together and addressing key challenges.</p>
+                <p>ANJAC مكرسة لتعزيز النمو والتطوير المجتمعي من خلال مبادرات وبرامج متنوعة. مهمتنا هي إحداث تأثير إيجابي على المجتمع من خلال جمع الناس معًا ومعالجة التحديات الرئيسية.</p>
             </div>
         </section>
 
@@ -137,27 +144,35 @@
 
         <section id="contact" class="contact">
             <h2>Get in Touch</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
             <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61553305528768"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/association_anjac/"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
             <div class="contact-info">
-                <p>Email: info@anjac.org</p>
-                <p>Phone: 0606060606</p>
-                <p>Address: chi blasa</p>
+                <p>Email: </p>
+                <p>Phone: 0688179829</p>
+                <p>Address: دار شباب المحاميد اسكجور</p>
             </div>
         </div>
         <div class="copyright">

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANJAC - Association</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="ANJAC Logo" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#activities">Our Activities</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
+                <li class="language-select">
+                    <select onchange="location = this.value;">
+                        <option value="index.html">🇸🇦 Arabic</option>
+                        <option value="index_en.html" selected>🇬🇧 English</option>
+                        <option value="index_fr.html">🇫🇷 French</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to ANJAC</h1>
+            <p>جمعية شباب الفن و الابداع</p>
+            <a href="#contact" class="cta-button">Join Us Today</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <img src="images/about-image.jpg" alt="ANJAC Team" class="about-image">
+                <p>ANJAC is dedicated to fostering community growth and development through various initiatives and programs. Our mission is to create a positive impact on society by bringing people together and addressing key challenges.</p>
+            </div>
+        </section>
+
+        <section id="activities" class="activities">
+            <h2>Our Activities</h2>
+            <div class="container swiper">
+                <div class="card-wrapper">
+                  <!-- Card slides container -->
+                  <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                      <a href="#" class="card-link">
+                        <img src="images/painting.jpg" alt="Card Image" class="card-image">
+                        <p class="badge badge-painting">Painting</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                      </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                      <a href="#" class="card-link">
+                        <img src="images/informatics.jpg" alt="Card Image" class="card-image">
+                        <p class="badge badge-informatics">Informatics</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                      </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                      <a href="#" class="card-link">
+                        <img src="images/music.jpg" alt="Card Image" class="card-image">
+                        <p class="badge badge-music">Music</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                      </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                      <a href="#" class="card-link">
+                        <img src="images/quran.jpg" alt="Card Image" class="card-image">
+                        <p class="badge badge-quran">Quran</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                      </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                      <a href="#" class="card-link">
+                        <img src="images/theatre.jpg" alt="Card Image" class="card-image">
+                        <p class="badge badge-theatre">Theatre</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                      </a>
+                    </li>
+                  </ul>
+                   <!-- Pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- Navigation Buttons -->
+                  <div class="swiper-slide-button swiper-button-prev"></div>
+                  <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+              </div>
+        </section>
+
+
+        <section id="faq" class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="tab">
+                <input type="radio" name="acc" id="acc1">
+                <label for="acc1">
+                    <h3>01</h3>
+                    <h4>How can I request a quote for your services?</h4>
+                </label>
+                <div class="content"><p>Requesting a quote is easy! Simply visit our 'Contact' page and fill out the inquiry form. Provide us with some details about your project, and our team will get back to you promptly with a customized quote.</p></div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="acc" id="acc2">
+                <label for="acc2">
+                    <h3>02</h3>
+                    <h4>How long does it take to complete a typical project?</h4>
+                </label>
+                <div class="content"><p>The timeline for a project varies based on its complexity and scope. During our initial consultation, we discuss your project requirements and provide you with a detailed timeline. We prioritize delivering high-quality work within agreed-upon deadlines.</p></div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="acc" id="acc3">
+                <label for="acc3">
+                    <h3>03</h3>
+                    <h4>How long does it take to complete a typical project?</h4>
+                </label>
+                <div class="content"><p>The timeline for a project varies based on its complexity and scope. During our initial consultation, we discuss your project requirements and provide you with a detailed timeline. We prioritize delivering high-quality work within agreed-upon deadlines.</p></div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="acc" id="acc4">
+                <label for="acc4">
+                    <h3>04</h3>
+                    <h4>How long does it take to complete a typical project?</h4>
+                </label>
+                <div class="content"><p>The timeline for a project varies based on its complexity and scope. During our initial consultation, we discuss your project requirements and provide you with a detailed timeline. We prioritize delivering high-quality work within agreed-upon deadlines.</p></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61553305528768"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/association_anjac/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>Email: </p>
+                <p>Phone: 0688179829</p>
+                <p>Address: دار شباب المحاميد اسكجور</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 ANJAC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
