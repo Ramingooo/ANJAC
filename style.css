@@ -17,6 +17,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
     color: var(--text-color);
     align-items: center;
@@ -35,12 +37,6 @@ header {
     z-index: 1000;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5%;
-}
 
 .logo {
     display: flex;
@@ -56,13 +52,13 @@ nav {
     margin-right: 10px;
 }
 
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
-nav ul {
+.navbar ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -70,19 +66,19 @@ nav ul {
     justify-content: flex-end;
 }
 
-nav ul li {
+.navbar ul li {
     margin-right: 20px;
     list-style: none;
 }
 
-nav ul li a {
+.navbar ul li a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
     color: var(--primary-color);
 }
 
